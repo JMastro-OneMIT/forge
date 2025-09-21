@@ -1,8 +1,6 @@
-# Forge needs a NEW MAINTAINER
-
-Forge is a GNOME Shell extension that provides tiling/window management **_AND_** is looking for a new owner or maintainer:
-- https://github.com/orgs/forge-ext/discussions/276
-- https://github.com/forge-ext/forge/issues/336
+## This fork adds features for Ultrawide Monitors!
+- Adds settings for minimum # of active/eligible windows to be open before tiling is enforced.  This helps prevent first/single windows from spanning the entire ultrawide screen.
+- Adds setting to restrict floating window dimensions on ultrawide monitors. Can set limit that if your current resolution exceeds this # to apply the limits.  In my case my monitor is 5160x1440, the default value is 5140.  This option is important so if switch from ultrawide to laptop screen window sizes are not restricted.  Otherwise new windows will be created and sized to the max resolution you set here.
 
 ## Features
 
